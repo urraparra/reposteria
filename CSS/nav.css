@@ -1,26 +1,31 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster+Two&display=swap');
+*{
+    margin:0px;
+    padding:0px
+}
 .nav{
     width: 15%;
     background-color: #f6ecbf;
-    border: solid 4px pink;
+    border: solid 4px rgb(130, 115, 218);
     margin: 0px ;
     
 }
 ul{
     padding: 0px;
     margin-bottom: 50px;
+    text-align: center;
 
 }
 ul>li{
     list-style: none;
     font-size: 30px;
-    background-color: rgb(133, 29, 29);
+    background-color: rgb(105, 122, 216);
     border: 3px white solid;
     font-family: 'Lobster Two', cursive;
     padding:20px;
     border-radius: 20px;
     position: relative;
-    bottom: 50px;
+    bottom: 30px;
     margin: 7px;
 
 }
