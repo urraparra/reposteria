@@ -1,3 +1,16 @@
 .section{
     background-color: #f9f9f9;
 }
+.divNoticias{
+    display: inline-block;
+    width: 90%;
+    text-align: justify;
+    margin: 0% 5% 5% 5%;
+}
+.imagenNoticias{
+    width: 80%;
+    margin-left: 10%;
+}
+.tituloNoticias{
+    text-align: center;
+}
