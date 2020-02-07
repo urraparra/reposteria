@@ -10,13 +10,13 @@
     margin: 0px ;
     
 }
-ul{
+.ul{
     padding: 0px;
     margin-bottom: 50px;
     text-align: center;
 
 }
-ul>li{
+.ul>li{
     list-style: none;
     font-size: 30px;
     background-color: rgb(105, 122, 216);
