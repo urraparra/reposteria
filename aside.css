@@ -2,14 +2,18 @@
     width: 15%;
     background-color: #f6ecbf;
 }
-.fotosNoticiasAside{
+.aside .title h2{
+    padding: 5%;
     text-align: center;
-    height: 15%;
-    width: 80%;
 }
-.divNoticiasAside{
-    text-align: justify;
-    width: 100%;
-    height: 15%;
-    margin-bottom: 10px;
+.aside .fotosNoticiasAside td{
+    border-top: solid black 1px;
+}
+.aside .fotosNoticiasAside img{
+    width: 90%;
+    padding: 5% 5% 0% 5%;
+}
+.aside .textoNoticiasAside p{
+    padding: 5%;
+    margin-top: 0;
 }
