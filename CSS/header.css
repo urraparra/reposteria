@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-
-table{
-    width: 100%;
-    /* height: 900px; */
-}
-.header{
+header{
     background-color: #caadde;
     width: 100%;
-    height: 150px;
+    height: 30em;
 }
 h1{
     font-family: 'Lobster', cursive;
@@ -18,8 +13,7 @@ h1{
     bottom: 1em;
     left: 4em;
     margin-bottom: -150px;
-
-    
+ 
 }
 .logo{
     margin-left: 45em;

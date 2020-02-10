@@ -3,12 +3,13 @@
     margin:0px;
     padding:0px
 }
-.nav{
+nav{
     width: 15%;
     background-color: #f6ecbf;
     border: solid 4px rgb(172, 145, 167);
     border-radius: 20px;
-    margin: 0px ;   
+    margin: 0px ;
+    display: inline-block;  
 }
 ul{
     margin-bottom: 50px;

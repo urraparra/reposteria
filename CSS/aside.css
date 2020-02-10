@@ -1,19 +1,20 @@
-.aside{
+aside{
     width: 15%;
     background-color: #f6ecbf;
+    display: inline-block;
 }
-.aside .title h2{
+aside .title h2{
     padding: 5%;
     text-align: center;
 }
-.aside .fotosNoticiasAside td{
+aside .fotosNoticiasAside td{
     border-top: solid black 1px;
 }
-.aside .fotosNoticiasAside img{
+aside .fotosNoticiasAside img{
     width: 90%;
     padding: 5% 5% 0% 5%;
 }
-.aside .textoNoticiasAside p{
+aside .textoNoticiasAside p{
     padding: 5%;
     margin-top: 0;
 }
