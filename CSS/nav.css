@@ -36,5 +36,6 @@ a{
     height: 300px;
 }
 li>img{
-    width: 30px;
+    width: 32px;
+    margin: 2px;
 }

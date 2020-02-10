@@ -35,4 +35,6 @@ footer > p > a{
     text-decoration: none;
 
 }
-
+.cursiva{
+    font-style: italic;
+}
