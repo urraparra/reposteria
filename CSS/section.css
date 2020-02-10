@@ -3,5 +3,7 @@ section{
     width: 69%;
     height: auto;
     vertical-align: top;
-    margin-top: 70px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
 }

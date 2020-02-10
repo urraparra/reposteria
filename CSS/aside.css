@@ -2,6 +2,8 @@ aside{
     width: 15%;
     background-color: #f6ecbf;
     display: inline-block;
+    vertical-align: top;
+    height:55.5em;
 }
 aside .title h2{
     padding: 5%;
