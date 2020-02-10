@@ -17,7 +17,7 @@ ul{
     padding-top: 50px;
 
 }
-ul>li{
+.ul>li{
     list-style: none;
     font-size: 30px;
     background-color: rgb(249, 245, 250);
