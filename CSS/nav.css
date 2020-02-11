@@ -9,7 +9,9 @@ nav{
     border: solid 4px rgb(172, 145, 167);
     border-radius: 10px;
     margin: 0px;
-    display: inline-block;  
+    display: inline-block; 
+    height: 54.9em; 
+    vertical-align: top;
 }
 ul{
     text-align: center;
@@ -32,10 +34,10 @@ a{
     color:rgb(119, 119, 80)
 }
 .dulce{
-    width: 250px;
-    height: 300px;
+    width: 15em;
+    height: 15em;
 }
 li>img{
-    width: 32px;
-    margin: 2px;
+    width: 1em;
+    margin: 0.3em;
 }

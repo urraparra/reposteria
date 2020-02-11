@@ -1,9 +1,9 @@
 section{
     display: inline-block;
-    width: 69%;
+    width: 68%;
     height: auto;
     vertical-align: top;
-    margin-top: 20px;
     border-radius: 10px;
     text-align: center;
+    margin-top: 3px;
 }
