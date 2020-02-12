@@ -1,28 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
-
-aside{
-    width: 15.5%;
+aside {
     background-color: #f6ecbf;
+    display: inline-block;
+    vertical-align:top;
     border: solid 4px rgb(172, 145, 167);
     border-radius: 10px;
-    display: inline-block;
-    height: 55em; 
-    font-family: 'Nunito', sans-serif;
-    
-}
-aside .title h2{
-    padding: 0.5em;
+    margin: 0px;
     text-align: center;
-    
 }
-aside .fotosNoticiasAside td{
-    border-top: solid rgb(235, 172, 172) 3px;
-}
-aside .fotosNoticiasAside img{
-    width: 13em;
-    padding: 5% 5% 0% 5%;
-}
-aside .textoNoticiasAside p{
-    padding: 5%;
-    margin-top: 0;
+
+aside>img {
+    width: 12em;
+    margin: 20px;
 }

@@ -1,0 +1,32 @@
+.rejilla {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 2fr 3fr 1fr;
+    grid-template-areas: "cabeza cabeza cabeza" "nave text noticia " "pie pie pie";
+}
+
+header {
+    grid-area: cabeza;
+}
+
+nav {
+    grid-area: nave;
+    max-width: auto;
+}
+
+section {
+    grid-area: text;
+    width: auto;
+    min-width: 1fr;
+}
+
+aside {
+    grid-area: noticia;
+    width: auto;
+
+}
+
+footer {
+    grid-area: pie;
+    width: auto;
+}
