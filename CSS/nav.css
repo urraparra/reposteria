@@ -13,13 +13,13 @@ nav {
     display: inline-block;
 }
 
-ul {
+nav ul {
     text-align: center;
     padding-top: 50px;
     height: 33em;
 }
 
-ul>li {
+nav ul>li {
     list-style: none;
     font-size: 22px;
     background-color: rgb(249, 245, 250);
@@ -29,7 +29,7 @@ ul>li {
     border-radius: 20px;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: rgb(119, 119, 80);
 }

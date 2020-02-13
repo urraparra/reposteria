@@ -12,3 +12,7 @@ aside>img {
     width: 12em;
     margin: 20px;
 }
+aside .bordeImagen{
+    border: 3px solid white;
+    border-radius: 20px;
+}
