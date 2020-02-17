@@ -27,11 +27,13 @@ nav ul>li {
     font-family: 'Lobster Two', cursive;
     padding: 20px;
     border-radius: 20px;
+    transition: background-color  1s ;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(119, 119, 80);
+    transition: color 1s;
 }
 
 .dulce {
@@ -42,4 +44,12 @@ nav a {
 li>img {
     width: 32px;
     margin: 2px;
+}
+nav ul>li:hover {
+    background-color: rgb(77, 19, 19);
+    color:white;
+    border: 3px rgb(209, 113, 113) solid;
+}
+a:hover{
+    color: rgb(204, 204, 51);
 }
