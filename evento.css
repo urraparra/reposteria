@@ -1,0 +1,28 @@
+/*la seccin del navegador inferior para pasar de noticia en noticia*/
+section>div{
+    width: 60%;
+    background-color: royalblue;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+}
+div>a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.anterior{
+    float: left;
+    padding-left: 20px;
+}
+.siguente{
+    float: right;
+    padding-right: 20px;
+}
+/*las imagenes tal vez las enmarque por ahora propiedades simples de tamaño*/
+article>img{
+    width: 500px;
+}
