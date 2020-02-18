@@ -26,4 +26,6 @@ div>a{
 article>img{
     width: 700px;
     display: inline-block;
+    border: 2px solid teal;
+    border-radius: 20px;
 }
