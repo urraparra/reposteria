@@ -1,0 +1,46 @@
+table{
+    border:solid black 3px;
+    border-collapse: collapse;
+    margin-bottom:20px;
+   
+}
+th{
+    border:solid black 3px;
+    font-size: 20px;
+    padding: 10px;
+}
+td{
+    font-size: 20px;
+    border:solid black 3px;
+    padding: 20px;
+}
+h2{
+    font-size:40px;
+    margin-bottom: 40px;
+}
+.bolder{
+    font-weight: bolder;
+}
+section>div{
+    width: 60%;
+    background-color: rgb(112, 129, 180);
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 10px;
+    height: 40px;
+}
+div>a{
+    font-weight: bolder;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding-top: 10px;
+}
+.anterior{
+    float: left;
+    padding-left: 20px;
+}
+.siguente{
+    float: right;
+    padding-right: 20px;
+}
