@@ -34,7 +34,7 @@ section article h3{
 section article p{
     margin-bottom: 50px;
 }
-section article a{
+.agregarCarro{
     background-color: teal;
     color: white;
     text-decoration: none;

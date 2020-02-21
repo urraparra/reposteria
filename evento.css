@@ -1,9 +1,9 @@
 /*la seccin del navegador inferior para pasar de noticia en noticia*/
-section>div{
+.navegacionInferior{
     width: 60%;
     background-color: royalblue;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 50px;
     border-radius: 10px;
     height: 40px;
 }
