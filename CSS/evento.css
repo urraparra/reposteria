@@ -1,5 +1,7 @@
 /*la seccin del navegador inferior para pasar de noticia en noticia*/
-.navegacionInferior{
+
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+.navegacionInferior {
     width: 60%;
     background-color: royalblue;
     margin: 0 auto;
@@ -7,25 +9,40 @@
     border-radius: 10px;
     height: 40px;
 }
-div>a{
+
+div>a {
     font-weight: bolder;
     text-decoration: none;
-    color:white;
+    color: white;
     text-align: center;
     padding-top: 10px;
 }
-.anterior{
+
+.anterior {
     float: left;
     padding-left: 20px;
 }
-.siguente{
+
+.siguente {
     float: right;
     padding-right: 20px;
 }
+
+
 /*las imagenes tal vez las enmarque por ahora propiedades simples de tamaño*/
-article>img{
-    width: 700px;
+
+article>img {
+    width: 40em;
     display: inline-block;
     border: 2px solid teal;
     border-radius: 20px;
+    margin-top: 2em;
+}
+
+section>article>p {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
 }

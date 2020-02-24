@@ -1,18 +1,29 @@
 aside {
     background-color: #f6ecbf;
     display: inline-block;
-    vertical-align:top;
+    vertical-align: top;
     border: solid 4px rgb(172, 145, 167);
     border-radius: 10px;
     margin: 0px;
     text-align: center;
+    border-collapse: collapse;
+    width: auto;
+    float: left;
 }
 
 aside>img {
-    width: 80%;
+    width: 70%;
     margin: 20px;
+    border-collapse: collapse;
 }
-aside .bordeImagen{
+
+aside .bordeImagen {
     border: 3px solid white;
     border-radius: 20px;
+}
+
+@media only screen and (max-width:900px) {
+    aside {
+        display: none;
+    }
 }

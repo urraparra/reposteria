@@ -1,24 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-
 body {
     margin: 0 auto;
     width: 90%;
     background-color: purple;
     font-family: 'Roboto', sans-serif;
 }
-.divNoticias{
+
+.divNoticias {
     display: inline-block;
     width: 90%;
     text-align: justify;
     margin: 0% 5% 10% 5%;
 }
-.imagenNoticias{
+
+.imagenNoticias {
     width: 80%;
     margin-left: 10%;
     border: 3px solid white;
     border-radius: 20px;
 }
-.tituloNoticias{
+
+.tituloNoticias {
     text-align: center;
     margin-bottom: 20px;
+}
+
+@media only screen and (max-width:900px) {
+    body {
+        width: 100%;
+    }
 }

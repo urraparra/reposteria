@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
 header {
     background-color: #caadde;
     width: 100%;
@@ -15,3 +15,28 @@ header h1 {
     bottom: 1.7em;
     width: auto;
 }
+
+@media only screen and (max-width:900px) {
+    header>img {
+        width: 12em;
+    }
+    header>h1 {
+        font-size: 5em;
+    }
+    header {
+        height: 13em;
+        border-radius: 0px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    header>img {
+        width: 10em;
+    }
+    header>h1 {
+        font-size: 3em;
+    }
+    header {
+        height: 11em;
+        border-radius: 0px;
+    }
