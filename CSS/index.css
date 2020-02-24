@@ -1,22 +1,51 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
-article {
-    border-bottom: solid 0.5em rgb(111, 101, 146);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    display: inline-block;
-    vertical-align: center;
-}
-
-article>h2 {
-    font-family: 'Lobster', cursive;
-    font-size: 50px;
-    background-color: rgb(218, 108, 108);
-    width: 500px;
-    margin: 0 auto;
-    border-radius: 20px;
-}
-
-.imagenIndex {
-    width: 90%;
-    text-align: center;
-}
+                    @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+                article {
+                    padding-top: 50px;
+                    padding-bottom: 50px;
+                    display: inline-block;
+                    vertical-align: center;
+                }
+                
+                article>h2 {
+                    font-family: 'Lobster', cursive;
+                    font-size: 50px;
+                    background-color: rgb(218, 108, 108);
+                    width: 500px;
+                    margin: 0 auto;
+                    border-radius: 20px;
+                }
+                
+                .imagenIndex {
+                    width: 90%;
+                    text-align: center;
+                }
+                
+                @media only screen and (max-width:900px) {
+                    article>h2 {
+                        font-family: 'Lobster', cursive;
+                        font-size: 30px;
+                        width: 300px;
+                    }
+                    article>.imagenIndex {
+                        width: 20em;
+                        text-align: center;
+                    }
+                    article {
+                        border: none;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        display: inline-block;
+                        vertical-align: center;
+                    }
+                }
+                
+                @media only screen and (max-width:500px) {
+                    article>h2 {
+                        font-family: 'Lobster', cursive;
+                        font-size: 0.7em;
+                        width: 100px;
+                    }
+                    article>.imagenIndex {
+                        width: 12em;
+                        text-align: center;
+                    }
