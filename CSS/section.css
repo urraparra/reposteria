@@ -58,11 +58,21 @@ section h2 {
 
 @media only screen and (max-width:900px) {
     section {
-        width: 130%;
+        width: 125%;
     }
     article>.imagenIndex {
         width: 30em;
     }
 }
 
-@media only screen and (max-width:800px) {}
+@media only screen and (max-width:800px) {
+    section {
+        width: 125%;
+    }
+    article>.imagenIndex {
+        width: 40%;
+    }
+}
+
+
+}
